@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162E17C497D28328CCB51C1F /* Pods_SMS_PayrollTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EDE695ACF8B957C5D6E684B /* Pods_SMS_PayrollTests.framework */; };
+		29F41DE4C83DBCD6109F1CAD /* Pods_SMS_Payroll.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66600BA1842A157DDEC81789 /* Pods_SMS_Payroll.framework */; };
+		8DA1406D19FAC2680081334A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1406C19FAC2680081334A /* AppDelegate.swift */; };
+		8DA1408019FAC2680081334A /* Temperature_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA1407F19FAC2680081334A /* Temperature_ConverterTests.swift */; };
+		A41E85DF21C681D900458DFE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A41E85DD21C681D900458DFE /* SWRevealViewController.m */; };
+		C3119ECD1F7BD1AC006EC190 /* Attendance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3119ECC1F7BD1AC006EC190 /* Attendance.swift */; };
+		C3119ECF1F7BD26F006EC190 /* ChangePassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3119ECE1F7BD26F006EC190 /* ChangePassword.swift */; };
+		C3119ED11F7BD286006EC190 /* EmployeePayroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3119ED01F7BD286006EC190 /* EmployeePayroll.swift */; };
+		C3119ED31F7BD2A0006EC190 /* GOSIDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3119ED21F7BD2A0006EC190 /* GOSIDetails.swift */; };
+		C3119ED51F7BD2D3006EC190 /* HolidayDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3119ED41F7BD2D3006EC190 /* HolidayDetails.swift */; };
+		C3119EDB1F7BEB3A006EC190 /* VacationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3119EDA1F7BEB3A006EC190 /* VacationDetails.swift */; };
+		C3119EDD1F7BEB55006EC190 /* ViewEmployeeProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3119EDC1F7BEB55006EC190 /* ViewEmployeeProfile.swift */; };
+		C31556D71F9B7A7F00951E1C /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31556D61F9B7A7F00951E1C /* Singleton.swift */; };
+		C31EB50C1FD944A00032CEB1 /* MonthPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31EB50B1FD944A00032CEB1 /* MonthPicker.swift */; };
+		C31EB50E1FD944C90032CEB1 /* YearPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31EB50D1FD944C90032CEB1 /* YearPicker.swift */; };
+		C325828A20A863380077C1B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C325828920A863380077C1B6 /* ViewController.swift */; };
+		C33475E82095B2F700B81C68 /* ContainerSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33475E72095B2F700B81C68 /* ContainerSwitch.swift */; };
+		C335273D1FACAF5200E8A088 /* SalaryPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C335273C1FACAF5200E8A088 /* SalaryPackage.swift */; };
+		C33B9F6B1FAD5FFD0005E337 /* PackageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33B9F6A1FAD5FFD0005E337 /* PackageTableViewCell.swift */; };
+		C3571261200F570700545046 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3571260200F570700545046 /* SplashController.swift */; };
+		C35803471FA7051B00FB88E5 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35803461FA7051B00FB88E5 /* ProfileTableViewCell.swift */; };
+		C358034A1FA7489200FB88E5 /* GOSITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35803491FA7489200FB88E5 /* GOSITableViewCell.swift */; };
+		C362AD5C1FA86E1A0024B1CA /* HolidayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C362AD5B1FA86E1A0024B1CA /* HolidayTableViewCell.swift */; };
+		C362AD5E1FA8B53E0024B1CA /* PayrollTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C362AD5D1FA8B53E0024B1CA /* PayrollTableViewCell.swift */; };
+		C37923551FA6C56100485129 /* PaySlipTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37923541FA6C56100485129 /* PaySlipTableViewCell.swift */; };
+		C38C66EC208B49FC00A9F490 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C38C66EB208B462B00A9F490 /* Reachability.m */; };
+		C3916F831FB03D53004F26C3 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3916F821FB03D53004F26C3 /* MenuController.swift */; };
+		C3916F871FB04407004F26C3 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3916F861FB04407004F26C3 /* MenuTableViewCell.swift */; };
+		C3A7539421B819A0004FE2A1 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A7539221B8199F004FE2A1 /* Crashlytics.framework */; };
+		C3A7539521B819A0004FE2A1 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A7539321B8199F004FE2A1 /* Fabric.framework */; };
+		C3C6CB611FB0CB8500D8D8AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3C6CB601FB0CB8500D8D8AB /* Images.xcassets */; };
+		C3D322231F7E78BD00EE3596 /* PaySlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D322221F7E78BD00EE3596 /* PaySlip.swift */; };
+		C3D995711FA7BB9E0003537C /* VacationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D995701FA7BB9E0003537C /* VacationTableViewCell.swift */; };
+		C3D995731FA81E5D0003537C /* AttendanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D995721FA81E5D0003537C /* AttendanceTableViewCell.swift */; };
+		C3DEB4C61F7C35AC0061FB4F /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DEB4C51F7C35AC0061FB4F /* Login.swift */; };
+		C3E89B6F20247EE1000B7CC8 /* Reachebility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E89B6E20247EE1000B7CC8 /* Reachebility.swift */; };
+		C3EB3F011F85D1A80076841A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3EB3EFF1F85D1A80076841A /* Main.storyboard */; };
+		C3EC6F611F89445A00CBF22B /* AboutUs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EC6F601F89445A00CBF22B /* AboutUs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DA1407A19FAC2680081334A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA1405F19FAC2680081334A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA1406619FAC2680081334A;
+			remoteInfo = "Temperature Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12D6678FA54ED92CBA6156CB /* Pods-SMS PayrollTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS PayrollTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMS PayrollTests/Pods-SMS PayrollTests.release.xcconfig"; sourceTree = "<group>"; };
+		43B334890339BF4FEF0011DC /* Pods-SMS Payroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS Payroll.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMS Payroll/Pods-SMS Payroll.debug.xcconfig"; sourceTree = "<group>"; };
+		66600BA1842A157DDEC81789 /* Pods_SMS_Payroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMS_Payroll.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EDE695ACF8B957C5D6E684B /* Pods_SMS_PayrollTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMS_PayrollTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA1406719FAC2680081334A /* SMS Payroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SMS Payroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA1406B19FAC2680081334A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA1406C19FAC2680081334A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DA1407919FAC2680081334A /* SMS PayrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SMS PayrollTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA1407E19FAC2680081334A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA1407F19FAC2680081334A /* Temperature_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature_ConverterTests.swift; sourceTree = "<group>"; };
+		97D5C2ABEEC09AFE008FD2D3 /* Pods-SMS Payroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS Payroll.release.xcconfig"; path = "Pods/Target Support Files/Pods-SMS Payroll/Pods-SMS Payroll.release.xcconfig"; sourceTree = "<group>"; };
+		A41E85DD21C681D900458DFE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		A41E85DE21C681D900458DFE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C3119ECC1F7BD1AC006EC190 /* Attendance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attendance.swift; sourceTree = "<group>"; };
+		C3119ECE1F7BD26F006EC190 /* ChangePassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePassword.swift; sourceTree = "<group>"; };
+		C3119ED01F7BD286006EC190 /* EmployeePayroll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeePayroll.swift; sourceTree = "<group>"; };
+		C3119ED21F7BD2A0006EC190 /* GOSIDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOSIDetails.swift; sourceTree = "<group>"; };
+		C3119ED41F7BD2D3006EC190 /* HolidayDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HolidayDetails.swift; path = ../HolidayDetails.swift; sourceTree = "<group>"; };
+		C3119EDA1F7BEB3A006EC190 /* VacationDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VacationDetails.swift; path = ../VacationDetails.swift; sourceTree = "<group>"; };
+		C3119EDC1F7BEB55006EC190 /* ViewEmployeeProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewEmployeeProfile.swift; path = ../ViewEmployeeProfile.swift; sourceTree = "<group>"; };
+		C31556D61F9B7A7F00951E1C /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		C31EB50B1FD944A00032CEB1 /* MonthPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthPicker.swift; sourceTree = "<group>"; };
+		C31EB50D1FD944C90032CEB1 /* YearPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YearPicker.swift; sourceTree = "<group>"; };
+		C325828920A863380077C1B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C33475E72095B2F700B81C68 /* ContainerSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerSwitch.swift; sourceTree = "<group>"; };
+		C335273C1FACAF5200E8A088 /* SalaryPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalaryPackage.swift; sourceTree = SOURCE_ROOT; };
+		C336BA2421B9348F00135605 /* SMS Payroll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SMS Payroll.entitlements"; sourceTree = "<group>"; };
+		C33B9F6A1FAD5FFD0005E337 /* PackageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageTableViewCell.swift; sourceTree = "<group>"; };
+		C34016CE1F7F6591009FE67F /* Temperature Converter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Temperature Converter-Bridging-Header.h"; sourceTree = "<group>"; };
+		C34016CF1F7F6592009FE67F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master-2/SWRevealViewController/untitled folder/SWRevealViewController.h"; sourceTree = "<group>"; };
+		C3571260200F570700545046 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		C35803461FA7051B00FB88E5 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileTableViewCell.swift; path = ../ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		C35803491FA7489200FB88E5 /* GOSITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GOSITableViewCell.swift; sourceTree = "<group>"; };
+		C362AD5B1FA86E1A0024B1CA /* HolidayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayTableViewCell.swift; sourceTree = "<group>"; };
+		C362AD5D1FA8B53E0024B1CA /* PayrollTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayrollTableViewCell.swift; sourceTree = "<group>"; };
+		C37923541FA6C56100485129 /* PaySlipTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaySlipTableViewCell.swift; sourceTree = "<group>"; };
+		C38C66EA208B462B00A9F490 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C38C66EB208B462B00A9F490 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C3916F821FB03D53004F26C3 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		C3916F861FB04407004F26C3 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuTableViewCell.swift; path = ../MenuTableViewCell.swift; sourceTree = "<group>"; };
+		C3A7539221B8199F004FE2A1 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		C3A7539321B8199F004FE2A1 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		C3C6CB601FB0CB8500D8D8AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3D322221F7E78BD00EE3596 /* PaySlip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaySlip.swift; sourceTree = "<group>"; };
+		C3D995701FA7BB9E0003537C /* VacationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VacationTableViewCell.swift; sourceTree = "<group>"; };
+		C3D995721FA81E5D0003537C /* AttendanceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttendanceTableViewCell.swift; sourceTree = "<group>"; };
+		C3DEB4C51F7C35AC0061FB4F /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		C3E89B6E20247EE1000B7CC8 /* Reachebility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachebility.swift; sourceTree = "<group>"; };
+		C3EB3F001F85D1A80076841A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3EC6F601F89445A00CBF22B /* AboutUs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUs.swift; sourceTree = "<group>"; };
+		C95F0D3FCF0874B1306BF356 /* Pods-SMS PayrollTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMS PayrollTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMS PayrollTests/Pods-SMS PayrollTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA1406419FAC2680081334A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A7539421B819A0004FE2A1 /* Crashlytics.framework in Frameworks */,
+				C3A7539521B819A0004FE2A1 /* Fabric.framework in Frameworks */,
+				29F41DE4C83DBCD6109F1CAD /* Pods_SMS_Payroll.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA1407619FAC2680081334A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162E17C497D28328CCB51C1F /* Pods_SMS_PayrollTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E51E69085967A6397EF8AB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43B334890339BF4FEF0011DC /* Pods-SMS Payroll.debug.xcconfig */,
+				97D5C2ABEEC09AFE008FD2D3 /* Pods-SMS Payroll.release.xcconfig */,
+				C95F0D3FCF0874B1306BF356 /* Pods-SMS PayrollTests.debug.xcconfig */,
+				12D6678FA54ED92CBA6156CB /* Pods-SMS PayrollTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DA1405E19FAC2680081334A = {
+			isa = PBXGroup;
+			children = (
+				A41E85DE21C681D900458DFE /* SWRevealViewController.h */,
+				A41E85DD21C681D900458DFE /* SWRevealViewController.m */,
+				C336BA2421B9348F00135605 /* SMS Payroll.entitlements */,
+				C325828920A863380077C1B6 /* ViewController.swift */,
+				8DA1406919FAC2680081334A /* Payroll */,
+				8DA1407C19FAC2680081334A /* Temperature ConverterTests */,
+				8DA1406819FAC2680081334A /* Products */,
+				C3131AA921B1796A00150F58 /* Frameworks */,
+				1E51E69085967A6397EF8AB9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA1406819FAC2680081334A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DA1406719FAC2680081334A /* SMS Payroll.app */,
+				8DA1407919FAC2680081334A /* SMS PayrollTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA1406919FAC2680081334A /* Payroll */ = {
+			isa = PBXGroup;
+			children = (
+				C38C66EA208B462B00A9F490 /* Reachability.h */,
+				C38C66EB208B462B00A9F490 /* Reachability.m */,
+				C3C6CB601FB0CB8500D8D8AB /* Images.xcassets */,
+				C35803481FA7072200FB88E5 /* TableViewCell */,
+				C3EB3EFF1F85D1A80076841A /* Main.storyboard */,
+				C3571260200F570700545046 /* SplashController.swift */,
+				C31EB50B1FD944A00032CEB1 /* MonthPicker.swift */,
+				C31EB50D1FD944C90032CEB1 /* YearPicker.swift */,
+				C3119ED41F7BD2D3006EC190 /* HolidayDetails.swift */,
+				C335273C1FACAF5200E8A088 /* SalaryPackage.swift */,
+				C3119EDA1F7BEB3A006EC190 /* VacationDetails.swift */,
+				C3119EDC1F7BEB55006EC190 /* ViewEmployeeProfile.swift */,
+				C3D322221F7E78BD00EE3596 /* PaySlip.swift */,
+				C3DEB4C51F7C35AC0061FB4F /* Login.swift */,
+				8DA1406C19FAC2680081334A /* AppDelegate.swift */,
+				C3119ECE1F7BD26F006EC190 /* ChangePassword.swift */,
+				C3119ED01F7BD286006EC190 /* EmployeePayroll.swift */,
+				C3EC6F601F89445A00CBF22B /* AboutUs.swift */,
+				C3119ED21F7BD2A0006EC190 /* GOSIDetails.swift */,
+				C3119ECC1F7BD1AC006EC190 /* Attendance.swift */,
+				C31556D61F9B7A7F00951E1C /* Singleton.swift */,
+				C3E89B6E20247EE1000B7CC8 /* Reachebility.swift */,
+				C33475E72095B2F700B81C68 /* ContainerSwitch.swift */,
+				C3916F821FB03D53004F26C3 /* MenuController.swift */,
+				8DA1406A19FAC2680081334A /* Supporting Files */,
+				C34016CE1F7F6591009FE67F /* Temperature Converter-Bridging-Header.h */,
+			);
+			name = Payroll;
+			path = "Temperature Converter";
+			sourceTree = "<group>";
+		};
+		8DA1406A19FAC2680081334A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3A7539221B8199F004FE2A1 /* Crashlytics.framework */,
+				C3A7539321B8199F004FE2A1 /* Fabric.framework */,
+				8DA1406B19FAC2680081334A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DA1407C19FAC2680081334A /* Temperature ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA1407F19FAC2680081334A /* Temperature_ConverterTests.swift */,
+				8DA1407D19FAC2680081334A /* Supporting Files */,
+			);
+			path = "Temperature ConverterTests";
+			sourceTree = "<group>";
+		};
+		8DA1407D19FAC2680081334A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DA1407E19FAC2680081334A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3131AA921B1796A00150F58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66600BA1842A157DDEC81789 /* Pods_SMS_Payroll.framework */,
+				7EDE695ACF8B957C5D6E684B /* Pods_SMS_PayrollTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C35803481FA7072200FB88E5 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C362AD5B1FA86E1A0024B1CA /* HolidayTableViewCell.swift */,
+				C3916F861FB04407004F26C3 /* MenuTableViewCell.swift */,
+				C362AD5D1FA8B53E0024B1CA /* PayrollTableViewCell.swift */,
+				C3D995721FA81E5D0003537C /* AttendanceTableViewCell.swift */,
+				C3D995701FA7BB9E0003537C /* VacationTableViewCell.swift */,
+				C33B9F6A1FAD5FFD0005E337 /* PackageTableViewCell.swift */,
+				C35803491FA7489200FB88E5 /* GOSITableViewCell.swift */,
+				C34016CF1F7F6592009FE67F /* SWRevealViewController.h */,
+				C35803461FA7051B00FB88E5 /* ProfileTableViewCell.swift */,
+				C37923541FA6C56100485129 /* PaySlipTableViewCell.swift */,
+			);
+			name = TableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DA1406619FAC2680081334A /* SMS Payroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA1408319FAC2680081334A /* Build configuration list for PBXNativeTarget "SMS Payroll" */;
+			buildPhases = (
+				8F9A72D44C6DA5E0DE88E77F /* [CP] Check Pods Manifest.lock */,
+				8DA1406319FAC2680081334A /* Sources */,
+				8DA1406419FAC2680081334A /* Frameworks */,
+				8DA1406519FAC2680081334A /* Resources */,
+				C3A7539121B8190D004FE2A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SMS Payroll";
+			productName = "Temperature Converter";
+			productReference = 8DA1406719FAC2680081334A /* SMS Payroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DA1407819FAC2680081334A /* SMS PayrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA1408619FAC2680081334A /* Build configuration list for PBXNativeTarget "SMS PayrollTests" */;
+			buildPhases = (
+				3472ECD04938BE4DBBBD917A /* [CP] Check Pods Manifest.lock */,
+				8DA1407519FAC2680081334A /* Sources */,
+				8DA1407619FAC2680081334A /* Frameworks */,
+				8DA1407719FAC2680081334A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA1407B19FAC2680081334A /* PBXTargetDependency */,
+			);
+			name = "SMS PayrollTests";
+			productName = "Temperature ConverterTests";
+			productReference = 8DA1407919FAC2680081334A /* SMS PayrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DA1405F19FAC2680081334A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Web In Dream";
+				TargetAttributes = {
+					8DA1406619FAC2680081334A = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = RPHYZJJ42A;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
+					};
+					8DA1407819FAC2680081334A = {
+						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8DA1406619FAC2680081334A;
+					};
+				};
+			};
+			buildConfigurationList = 8DA1406219FAC2680081334A /* Build configuration list for PBXProject "SMS Payroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DA1405E19FAC2680081334A;
+			productRefGroup = 8DA1406819FAC2680081334A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DA1406619FAC2680081334A /* SMS Payroll */,
+				8DA1407819FAC2680081334A /* SMS PayrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DA1406519FAC2680081334A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EB3F011F85D1A80076841A /* Main.storyboard in Resources */,
+				C3C6CB611FB0CB8500D8D8AB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA1407719FAC2680081334A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3472ECD04938BE4DBBBD917A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SMS PayrollTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F9A72D44C6DA5E0DE88E77F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SMS Payroll-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3A7539121B8190D004FE2A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n./Fabric.framework/run 5ef77feca97551f9728c4ca7dc86e8416e0b6228 4b10ba26f22520a1a9cf2eb43bb51fb9c5b76d54cfbca4074b2d07bcc8c9c24f\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA1406319FAC2680081334A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3916F831FB03D53004F26C3 /* MenuController.swift in Sources */,
+				C3D322231F7E78BD00EE3596 /* PaySlip.swift in Sources */,
+				C3916F871FB04407004F26C3 /* MenuTableViewCell.swift in Sources */,
+				C3119ED31F7BD2A0006EC190 /* GOSIDetails.swift in Sources */,
+				C33B9F6B1FAD5FFD0005E337 /* PackageTableViewCell.swift in Sources */,
+				C3119ECF1F7BD26F006EC190 /* ChangePassword.swift in Sources */,
+				C3E89B6F20247EE1000B7CC8 /* Reachebility.swift in Sources */,
+				C35803471FA7051B00FB88E5 /* ProfileTableViewCell.swift in Sources */,
+				C362AD5C1FA86E1A0024B1CA /* HolidayTableViewCell.swift in Sources */,
+				C325828A20A863380077C1B6 /* ViewController.swift in Sources */,
+				C3EC6F611F89445A00CBF22B /* AboutUs.swift in Sources */,
+				C335273D1FACAF5200E8A088 /* SalaryPackage.swift in Sources */,
+				C37923551FA6C56100485129 /* PaySlipTableViewCell.swift in Sources */,
+				C3DEB4C61F7C35AC0061FB4F /* Login.swift in Sources */,
+				C358034A1FA7489200FB88E5 /* GOSITableViewCell.swift in Sources */,
+				C3D995731FA81E5D0003537C /* AttendanceTableViewCell.swift in Sources */,
+				C31556D71F9B7A7F00951E1C /* Singleton.swift in Sources */,
+				C3119EDB1F7BEB3A006EC190 /* VacationDetails.swift in Sources */,
+				C3119EDD1F7BEB55006EC190 /* ViewEmployeeProfile.swift in Sources */,
+				C3119ED51F7BD2D3006EC190 /* HolidayDetails.swift in Sources */,
+				C3D995711FA7BB9E0003537C /* VacationTableViewCell.swift in Sources */,
+				C3119ED11F7BD286006EC190 /* EmployeePayroll.swift in Sources */,
+				C31EB50E1FD944C90032CEB1 /* YearPicker.swift in Sources */,
+				C31EB50C1FD944A00032CEB1 /* MonthPicker.swift in Sources */,
+				C3119ECD1F7BD1AC006EC190 /* Attendance.swift in Sources */,
+				C38C66EC208B49FC00A9F490 /* Reachability.m in Sources */,
+				8DA1406D19FAC2680081334A /* AppDelegate.swift in Sources */,
+				A41E85DF21C681D900458DFE /* SWRevealViewController.m in Sources */,
+				C362AD5E1FA8B53E0024B1CA /* PayrollTableViewCell.swift in Sources */,
+				C3571261200F570700545046 /* SplashController.swift in Sources */,
+				C33475E82095B2F700B81C68 /* ContainerSwitch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA1407519FAC2680081334A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA1408019FAC2680081334A /* Temperature_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DA1407B19FAC2680081334A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA1406619FAC2680081334A /* SMS Payroll */;
+			targetProxy = 8DA1407A19FAC2680081334A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3EB3EFF1F85D1A80076841A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3EB3F001F85D1A80076841A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DA1408119FAC2680081334A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fawaz Abdul Basith (39XSE4L5D8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fawaz Abdul Basith (39XSE4L5D8)";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DA1408219FAC2680081334A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Fawaz Abdul Basith (EZ636C2S8P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fawaz Abdul Basith (EZ636C2S8P)";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA1408419FAC2680081334A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B334890339BF4FEF0011DC /* Pods-SMS Payroll.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Fawaz Abdul Basith (39XSE4L5D8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPHYZJJ42A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Temperature Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smsgroupco.payroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Temperature Converter/Temperature Converter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DA1408519FAC2680081334A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D5C2ABEEC09AFE008FD2D3 /* Pods-SMS Payroll.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Fawaz Abdul Basith (EZ636C2S8P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RPHYZJJ42A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Temperature Converter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smsgroupco.payroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Temperature Converter/Temperature Converter-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DA1408719FAC2680081334A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95F0D3FCF0874B1306BF356 /* Pods-SMS PayrollTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Temperature Converter.app/Temperature Converter";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Temperature ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smsgroupco.payroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8DA1408819FAC2680081334A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12D6678FA54ED92CBA6156CB /* Pods-SMS PayrollTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Temperature Converter.app/Temperature Converter";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Temperature ConverterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smsgroupco.payroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DA1406219FAC2680081334A /* Build configuration list for PBXProject "SMS Payroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA1408119FAC2680081334A /* Debug */,
+				8DA1408219FAC2680081334A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA1408319FAC2680081334A /* Build configuration list for PBXNativeTarget "SMS Payroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA1408419FAC2680081334A /* Debug */,
+				8DA1408519FAC2680081334A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA1408619FAC2680081334A /* Build configuration list for PBXNativeTarget "SMS PayrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA1408719FAC2680081334A /* Debug */,
+				8DA1408819FAC2680081334A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DA1405F19FAC2680081334A /* Project object */;
+}

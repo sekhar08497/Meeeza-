@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		103651B650F9092F51362B3840142A88 /* Pods-SMS Payroll-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E773E06EC59AA2443951D99322763CE1 /* Pods-SMS Payroll-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11ECA69207280A4E2A8C90EC501B2EC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		51A814522256735DBD95DC494374B138 /* Pods-SMS PayrollTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D00806D539997E06EEB3629BF7A2F15D /* Pods-SMS PayrollTests-dummy.m */; };
+		5F7DEBA63F484751CFA1D25085FEB5BC /* Pods-SMS Payroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBEDFAC6E646721AB2ABC9D2D2E0AF /* Pods-SMS Payroll-dummy.m */; };
+		A093F2AF647449ACD82726BA3EA3EF63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A6C3607760B70D637CD63009EF69C46B /* Pods-SMS PayrollTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFA925820355BC2367470845E010706 /* Pods-SMS PayrollTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1983B859848908B4847BDEEE04784B8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29ACE7BDE5D7DB8B4FA1A1A71BE0B3D5;
+			remoteInfo = "Pods-SMS Payroll";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020340393E7CB2F72002AE1E7CD0A4E1 /* Pods-SMS PayrollTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS PayrollTests.debug.xcconfig"; sourceTree = "<group>"; };
+		05FFEF18DAD6335E6AC49C15FB93AF41 /* Pods-SMS PayrollTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS PayrollTests.release.xcconfig"; sourceTree = "<group>"; };
+		0FD17F2B1D38225A913718AC51FB6E65 /* Pods-SMS Payroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS Payroll.debug.xcconfig"; sourceTree = "<group>"; };
+		12C672EA3FA0BD709ED69CFEF3C28948 /* Pods-SMS Payroll-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMS Payroll-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1628F81242F518F136C2980BC44DF5C9 /* Pods-SMS PayrollTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMS PayrollTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1BAD9A13E3B44600B6B4A4F038769D84 /* Pods_SMS_Payroll.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMS_Payroll.framework; path = "Pods-SMS Payroll.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFA925820355BC2367470845E010706 /* Pods-SMS PayrollTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMS PayrollTests-umbrella.h"; sourceTree = "<group>"; };
+		27F376445AAABC90962263742BD3BC81 /* Pods-SMS Payroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMS Payroll.release.xcconfig"; sourceTree = "<group>"; };
+		473233863740235A795DC19C07CDE44C /* Pods-SMS PayrollTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS PayrollTests-resources.sh"; sourceTree = "<group>"; };
+		4C1D7C173469098EBC8D655191788666 /* Pods-SMS Payroll-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS Payroll-resources.sh"; sourceTree = "<group>"; };
+		58358A6BBB77256ACB564A2A6EA65B64 /* Pods-SMS Payroll-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMS Payroll-acknowledgements.plist"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5DBBEDFAC6E646721AB2ABC9D2D2E0AF /* Pods-SMS Payroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMS Payroll-dummy.m"; sourceTree = "<group>"; };
+		7869FA0894D200A2B501596224D99E39 /* Pods-SMS PayrollTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS PayrollTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD5FCB5E2396022C2ADA8C804BC3266 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A530CFBCF7228D111398771E9E2844 /* Pods-SMS Payroll.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMS Payroll.modulemap"; sourceTree = "<group>"; };
+		C6B2B25C34440D65A23A5DEF3CFC6353 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00806D539997E06EEB3629BF7A2F15D /* Pods-SMS PayrollTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMS PayrollTests-dummy.m"; sourceTree = "<group>"; };
+		D9E8B868A459A515F1BC1A675C71BB65 /* Pods-SMS PayrollTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMS PayrollTests.modulemap"; sourceTree = "<group>"; };
+		E773E06EC59AA2443951D99322763CE1 /* Pods-SMS Payroll-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMS Payroll-umbrella.h"; sourceTree = "<group>"; };
+		EF9EF842E0223A8CEA087E371D98EF1F /* Pods_SMS_PayrollTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMS_PayrollTests.framework; path = "Pods-SMS PayrollTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F02EF61F0F5AD151C966BEB60F952588 /* Pods-SMS PayrollTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMS PayrollTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F75BC8493D799D8E09DB3AEFB6C4C47C /* Pods-SMS Payroll-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMS Payroll-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62B29F6195F69939E0023F5AAC4C7097 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11ECA69207280A4E2A8C90EC501B2EC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFA2C763F4B4A28361ED7264F962731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A093F2AF647449ACD82726BA3EA3EF63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B9EE29BE32664D804FDCD02D02C9472 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE48B0AB81EA5BE76031F4D3159F6B77 /* Pods-SMS Payroll */,
+				F502A986D98F93F08045DF442EACA712 /* Pods-SMS PayrollTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D9A8E15430FB8E7C96809BADA5CC27D7 /* Products */,
+				2B9EE29BE32664D804FDCD02D02C9472 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A8E15430FB8E7C96809BADA5CC27D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BAD9A13E3B44600B6B4A4F038769D84 /* Pods_SMS_Payroll.framework */,
+				EF9EF842E0223A8CEA087E371D98EF1F /* Pods_SMS_PayrollTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE48B0AB81EA5BE76031F4D3159F6B77 /* Pods-SMS Payroll */ = {
+			isa = PBXGroup;
+			children = (
+				9FD5FCB5E2396022C2ADA8C804BC3266 /* Info.plist */,
+				A3A530CFBCF7228D111398771E9E2844 /* Pods-SMS Payroll.modulemap */,
+				12C672EA3FA0BD709ED69CFEF3C28948 /* Pods-SMS Payroll-acknowledgements.markdown */,
+				58358A6BBB77256ACB564A2A6EA65B64 /* Pods-SMS Payroll-acknowledgements.plist */,
+				5DBBEDFAC6E646721AB2ABC9D2D2E0AF /* Pods-SMS Payroll-dummy.m */,
+				F75BC8493D799D8E09DB3AEFB6C4C47C /* Pods-SMS Payroll-frameworks.sh */,
+				4C1D7C173469098EBC8D655191788666 /* Pods-SMS Payroll-resources.sh */,
+				E773E06EC59AA2443951D99322763CE1 /* Pods-SMS Payroll-umbrella.h */,
+				0FD17F2B1D38225A913718AC51FB6E65 /* Pods-SMS Payroll.debug.xcconfig */,
+				27F376445AAABC90962263742BD3BC81 /* Pods-SMS Payroll.release.xcconfig */,
+			);
+			name = "Pods-SMS Payroll";
+			path = "Target Support Files/Pods-SMS Payroll";
+			sourceTree = "<group>";
+		};
+		F502A986D98F93F08045DF442EACA712 /* Pods-SMS PayrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B2B25C34440D65A23A5DEF3CFC6353 /* Info.plist */,
+				D9E8B868A459A515F1BC1A675C71BB65 /* Pods-SMS PayrollTests.modulemap */,
+				F02EF61F0F5AD151C966BEB60F952588 /* Pods-SMS PayrollTests-acknowledgements.markdown */,
+				1628F81242F518F136C2980BC44DF5C9 /* Pods-SMS PayrollTests-acknowledgements.plist */,
+				D00806D539997E06EEB3629BF7A2F15D /* Pods-SMS PayrollTests-dummy.m */,
+				7869FA0894D200A2B501596224D99E39 /* Pods-SMS PayrollTests-frameworks.sh */,
+				473233863740235A795DC19C07CDE44C /* Pods-SMS PayrollTests-resources.sh */,
+				1FFA925820355BC2367470845E010706 /* Pods-SMS PayrollTests-umbrella.h */,
+				020340393E7CB2F72002AE1E7CD0A4E1 /* Pods-SMS PayrollTests.debug.xcconfig */,
+				05FFEF18DAD6335E6AC49C15FB93AF41 /* Pods-SMS PayrollTests.release.xcconfig */,
+			);
+			name = "Pods-SMS PayrollTests";
+			path = "Target Support Files/Pods-SMS PayrollTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F5E61FA8B6B9CD5049E5450B34496378 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				103651B650F9092F51362B3840142A88 /* Pods-SMS Payroll-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF7D0BA6361EFA51ACF61FC6B505B7B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C3607760B70D637CD63009EF69C46B /* Pods-SMS PayrollTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		110DB8DCA510FB19EE2BC0231E15EDF3 /* Pods-SMS PayrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8594AE174E10E745A97C729C3DA0DDAF /* Build configuration list for PBXNativeTarget "Pods-SMS PayrollTests" */;
+			buildPhases = (
+				EAE0DCD997D46F92D3363764AAD4CB1B /* Sources */,
+				62B29F6195F69939E0023F5AAC4C7097 /* Frameworks */,
+				FF7D0BA6361EFA51ACF61FC6B505B7B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD737BF0C4F5EFF4D2F8E37E04E22E22 /* PBXTargetDependency */,
+			);
+			name = "Pods-SMS PayrollTests";
+			productName = "Pods-SMS PayrollTests";
+			productReference = EF9EF842E0223A8CEA087E371D98EF1F /* Pods_SMS_PayrollTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		29ACE7BDE5D7DB8B4FA1A1A71BE0B3D5 /* Pods-SMS Payroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A7C10DF3F45238DBE5C6E6D32F8F5E /* Build configuration list for PBXNativeTarget "Pods-SMS Payroll" */;
+			buildPhases = (
+				C88E53DC243B56711273D4B4631184FD /* Sources */,
+				CEFA2C763F4B4A28361ED7264F962731 /* Frameworks */,
+				F5E61FA8B6B9CD5049E5450B34496378 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SMS Payroll";
+			productName = "Pods-SMS Payroll";
+			productReference = 1BAD9A13E3B44600B6B4A4F038769D84 /* Pods_SMS_Payroll.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D9A8E15430FB8E7C96809BADA5CC27D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29ACE7BDE5D7DB8B4FA1A1A71BE0B3D5 /* Pods-SMS Payroll */,
+				110DB8DCA510FB19EE2BC0231E15EDF3 /* Pods-SMS PayrollTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C88E53DC243B56711273D4B4631184FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7DEBA63F484751CFA1D25085FEB5BC /* Pods-SMS Payroll-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE0DCD997D46F92D3363764AAD4CB1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A814522256735DBD95DC494374B138 /* Pods-SMS PayrollTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD737BF0C4F5EFF4D2F8E37E04E22E22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SMS Payroll";
+			target = 29ACE7BDE5D7DB8B4FA1A1A71BE0B3D5 /* Pods-SMS Payroll */;
+			targetProxy = 1983B859848908B4847BDEEE04784B8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		187ED5EA57016F22C352A12A673A41E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05FFEF18DAD6335E6AC49C15FB93AF41 /* Pods-SMS PayrollTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS PayrollTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS PayrollTests/Pods-SMS PayrollTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20DC4BF2D9CF0B129AB801F266EB3141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 020340393E7CB2F72002AE1E7CD0A4E1 /* Pods-SMS PayrollTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS PayrollTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS PayrollTests/Pods-SMS PayrollTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55AA2486B1900345BE83AE21DFD723BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F376445AAABC90962263742BD3BC81 /* Pods-SMS Payroll.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS Payroll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS Payroll/Pods-SMS Payroll.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8528E9257D68FB6553476D7A84197F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD17F2B1D38225A913718AC51FB6E65 /* Pods-SMS Payroll.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMS Payroll/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMS Payroll/Pods-SMS Payroll.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A375CB63F7CCEA369090301C0AD34B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E1D1462ED738211B8DE6177FCF4E09D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A7C10DF3F45238DBE5C6E6D32F8F5E /* Build configuration list for PBXNativeTarget "Pods-SMS Payroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8528E9257D68FB6553476D7A84197F82 /* Debug */,
+				55AA2486B1900345BE83AE21DFD723BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D1462ED738211B8DE6177FCF4E09D7 /* Debug */,
+				9A375CB63F7CCEA369090301C0AD34B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8594AE174E10E745A97C729C3DA0DDAF /* Build configuration list for PBXNativeTarget "Pods-SMS PayrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20DC4BF2D9CF0B129AB801F266EB3141 /* Debug */,
+				187ED5EA57016F22C352A12A673A41E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
